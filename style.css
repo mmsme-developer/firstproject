@@ -1,0 +1,117 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+/* start framework styling for hole */
+
+/* styles for width and height */
+.w-100{
+    width: 100%;
+}
+
+/* stylef or padding and margin */
+.m-atuo{
+    margin: auto;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.m-0{
+    margin: 0px;
+}
+.pr-6{
+    margin-right: 6px;
+}
+
+.mx-4{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pl-80{
+    margin-left: 80px;
+}
+
+
+/* styles for float */
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/* styels for colors */
+.bg-red{
+    background-color:red;
+}   
+.bg-blue{
+    background-color: blue;
+}
+
+
+
+/* styles for lists */
+.unstyled{
+    list-style: none;
+}
+
+
+/* style for display */
+.d-inline-block li{
+    display: inline-block;
+}
+
+
+/* direction style */
+.dir-rtl{
+    direction: rtl;
+}
+.dir-ltr{
+    direction: ltr;
+}
+/* end framework styling for hole */
+
+
+
+/* general style for every tag in the web page */
+*{
+    box-sizing: 0;
+}
+
+/*start style for header */
+
+header{
+    height:300px;
+    background-color: aqua;
+}
+
+
+
+
+/* start style for header part one */
+    div.container_one{
+        background-color: #190143;
+        color: gray;
+    }
+/* end style for header part one */
+
+
+
+/* start style for header part two */
+/* end style for header part two */
+
+
+
+/* start style for header part three */
+/* end style for header part three */
+
+
+/*end style for header */

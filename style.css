@@ -24,6 +24,9 @@ body{
 .w-40{
     width: 40%;
 }
+.w-20{
+    width: 20%;
+}
 .h-100{
     height: 100%;
 }
@@ -135,7 +138,7 @@ body{
 
 /* style fore alignment */
 .align-center{
-    text-align: center;
+    text-align: left;
 }
 
 /* style for links */
@@ -178,7 +181,8 @@ header{
     div.container_two{
         background-color: white;
     }
-    .container_two .links_left{
+    .container_one .links_left,
+        .container_two .links_left{
         display: table;
     }
 
@@ -192,6 +196,20 @@ header{
     }
     .links_left a{
         color: black;
+    }
+
+    .links_right .search{
+        border: 1px solid mediumpurple;
+        border-radius: 15px;
+        height: 23px;
+    }
+
+
+
+    ul.logo_links li:nth-child(1){
+        background-image: url(http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-38/128/Prey-logo-1-icon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 /* end style for header part two */
 

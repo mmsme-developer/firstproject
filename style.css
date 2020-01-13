@@ -210,10 +210,20 @@ header{
     }
 
     .links_right .search{
-        border: 1px solid mediumpurple;
+        /* border: 1px solid mediumpurple; */
+        outline: none;
         border-radius: 8px;
-        height: 23px;
+        height: 25px;
         
+    }
+
+    /* unstyle search input when i click it */
+    .links_right .search:active,.links_right .search:focus,.links_right .search:focus{
+        border-radius: 8px;
+        box-shadow: 0px 0px 3pt #190143;
+        border-radius: 8px;
+        outline-offset: 2px;
+        border: none;
     }
 
 

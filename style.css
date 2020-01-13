@@ -138,6 +138,10 @@ body{
     background-color:yellow;
 }
 
+.bg-green{
+    background-color: green;
+}
+
 
 /* styles for lists */
 .unstyled{
@@ -150,6 +154,17 @@ body{
     display: inline-block;
 }
 
+/* styles for postion */
+.p-relative{
+    position: relative;
+
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+
 
 /* direction style */
 .dir-rtl{
@@ -159,16 +174,48 @@ body{
     direction: ltr;
 }
 
-/* style fore alignment */
+/* style text for alignment */
 .align-center{
-    text-align: left;
+    text-align: center;
 }
 
+.align-left{
+    text-align: left;
+}
 /* style for links */
 .link{
     text-decoration: none;
 
 }
+
+/* style for font and fot size */
+.text-1-2{
+    font-size: 1.2em;
+}
+.text-1-4{
+    font-size: 1.4em;
+}
+
+.text-14{
+    font-size: 14px;
+}
+
+.text-12{
+    font-size: 12px;
+}
+
+/* style for font weight */
+.text-bold{
+    font-weight: bold;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-lighter{
+    font-weight: lighter;
+}
+
+
 
 /* end framework styling for hole */
 
@@ -182,7 +229,7 @@ body{
 /*start style for header */
 
 header{
-    height:300px;
+    height:97px;
     background-color: aqua;
 }
 
@@ -281,3 +328,66 @@ header{
 
 
 /*end style for header */
+
+
+/* start style for body */
+    
+    /* start style for body section one */
+        .slide_clumn{
+            height: 500px;
+            color: white;
+        }
+
+        .w-b1{
+            width: 33.333%;
+            height: inherit;
+        }
+
+        /* start styles for section one from article */
+            /* background gradient for section one */
+            section.one{
+                background: #FC466B;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to bottom, rgb(69, 146, 235), rgb(251, 86, 119));  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to top, rgb(6, 90, 199), rgb(250, 91, 123)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+            .content_on_slide{
+                top:auto;
+                left: auto;
+                right: auto;
+                bottom: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .bg-lightblue{
+                background-color: #113bc3;
+            }
+            
+
+
+        /* end styles for section one from article */
+
+
+        /* background gradient for section two */
+        section.twan {
+            background: #ef32d9;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom, #6695ec, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        /* background gradient for section three */
+        section.some{
+            background: #1a2a6c;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    /* end style for body section one */
+
+    /* start style for body section two */
+    /* end style for body section two */
+
+    /* start style for body section three */
+    /* end style for body section three */
+
+
+/* end style for body */

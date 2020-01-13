@@ -38,9 +38,13 @@ body{
     padding-top: 16px;
     height: inherit;
 }
-.px-4{
+.px-14{
     padding-left: 14px;
     padding-right: 14px;
+}
+.px-4{
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 /* stylef or padding and margin */
@@ -172,6 +176,13 @@ header{
         color: gray;
     }
 
+    .container_one .links_left a{
+        color: gray;
+    }
+
+    .container_one .links_left a:hover{
+        color: aquamarine
+    }
     
 /* end style for header part one */
 
@@ -200,8 +211,9 @@ header{
 
     .links_right .search{
         border: 1px solid mediumpurple;
-        border-radius: 15px;
+        border-radius: 8px;
         height: 23px;
+        
     }
 
 
